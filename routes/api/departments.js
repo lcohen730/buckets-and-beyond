@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const DepartmentController = require('../controllers/departmentController')
+const DepartmentController = require('../../controllers/api/departments')
 
 // Route for getting all departments with categories and items
 router.get('/', DepartmentController.getAllDepartments)

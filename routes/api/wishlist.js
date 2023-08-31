@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-const WishlistController = require('../controllers/WishlistController')
+const WishlistController = require('../../controllers/api/wishlist')
 
 // Add items to wishlist
 router.post('/add', WishlistController.addItemToWishlist)

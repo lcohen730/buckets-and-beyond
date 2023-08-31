@@ -1,7 +1,7 @@
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
-// @import "reset";
-// @import "grid";
+/* @import "reset"; */
+/* @import "grid"; */
 /* CSS Custom Properties */
 :root {
   --white: #FFFFFF;
@@ -26,7 +26,6 @@ body {
   font-family: "Gill Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--olive-green);
   padding: 2vmin;
   height: 100vh;
 }

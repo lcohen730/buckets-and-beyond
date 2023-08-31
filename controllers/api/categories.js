@@ -1,5 +1,5 @@
-const Category = require('../models/Category')
-const Department = require('../models/Department')
+const Category = require('../../models/category')
+const Department = require('../../models/department')
 
 exports.getAllCategories = async (req, res) => {
     try {
