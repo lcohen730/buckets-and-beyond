@@ -141,6 +141,7 @@ export default function App() {
               handleAddToWishList={handleAddToWishList} 
               handleSelectItem={handleSelectItem}
               onSearch={onSearch}
+              setWishlist={setWishlist}
             />} 
           />
           <Route path="/home/:depName/categories" element={<CategoryListPage user={user} setUser={setUser} />} />
@@ -151,6 +152,7 @@ export default function App() {
               handleAddToOrder={handleAddToOrder} 
               handleAddToWishList={handleAddToWishList} 
               handleSelectItem={handleSelectItem} 
+              setWishlist={setWishlist}
             />} 
           />
           <Route path="/home/:depName/:catName/:id" 
